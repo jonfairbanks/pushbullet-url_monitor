@@ -12,3 +12,4 @@ Example crontab to run script every 1 minute:
 
 ### Changelog
 - v1: Initial Commit
+- v1.2: Added timestamp & logging
