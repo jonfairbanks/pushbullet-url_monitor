@@ -15,7 +15,7 @@ else
         curl    -u $PBTOKEN: https://api.pushbullet.com/v2/pushes \
                 -d type=note \
                 -d title="[WARN] Web Page Not Available!" \
-                -d body="Check its status here: $URL"
+                -d body="Health check at $TIME failed."
         sleep 3
 		echo "[WARN] Web Page NOT Available @ $TIME" | tee -a "$LOG"
 fi
