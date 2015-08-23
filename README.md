@@ -5,7 +5,7 @@ Shell script to monitor URL endpoint &amp; send a Pushbullet notification if una
 ### Setup
 Create a touch file for logging (will be handled automatically in a later release):
 ```
-sudo touch /var/log/urlMonitor.log
+sudo touch /var/log/pushbullet-url_monitor.log
 ```
 
 You can also run this script on a schedule with cron! Setup using 'crontab -e' to edit & 'crontab -l' to verify.
