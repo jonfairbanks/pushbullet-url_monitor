@@ -6,7 +6,7 @@
 
 PBTOKEN="<YOUR PUSHBULLET API TOKEN>"
 URL="<YOUR URL ENDPOINT>"
-LOG="/var/log/urlMonitor.log"
+LOG="/var/log/pushbullet-url_monitor.log"
 TIME=$(date +%r)
 
 if curl --output /dev/null --silent --head --fail --connect-timeout 10 "$URL"; then
