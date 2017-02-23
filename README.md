@@ -1,6 +1,6 @@
 # pushbullet-url_monitor
 
-Shell script to monitor URL endpoint &amp; send a Pushbullet notification if unavailable.
+Basic shell script to monitor a URL endpoint &amp; send a Pushbullet notification if unavailable.
 
 ### Setup
 Create a touch file for logging (will be handled automatically in a later release):
