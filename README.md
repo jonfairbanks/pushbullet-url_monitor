@@ -18,3 +18,4 @@ Example crontab to run script every 1 minute:
 ### Changelog
 - v1: Initial Commit
 - v1.2: Added timestamp & logging
+- v1.3: Added a separate script to send notifications via email instead of through Pushbullet
