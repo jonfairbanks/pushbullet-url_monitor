@@ -3,7 +3,7 @@
 Basic shell script to monitor a URL endpoint &amp; send a Pushbullet notification if unavailable.
 
 ### Setup
-Create a touch file for logging (will be handled automatically in a later release):
+Create a temp file for logging (will be handled automatically in a later release):
 ```
 sudo touch /var/log/pushbullet-url_monitor.log
 ```
