@@ -14,6 +14,6 @@ if curl --output /dev/null --silent --head --fail --connect-timeout 10 "$URL"; t
 else
         mail -s "[WARN] Web Page NOT Available @ $TIME" "$RECIPIENT"
         sleep 3
-		echo "[WARN] Web Page NOT Available @ $TIME" | tee -a "$LOG"
+	echo "[WARN] Web Page NOT Available @ $TIME" | tee -a "$LOG"
 fi
 exit
